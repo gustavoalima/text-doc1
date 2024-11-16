@@ -1,0 +1,122 @@
+const styles = {
+    container: {
+        padding: '30px',
+        backgroundColor: '#f4f7fb',
+        borderRadius: '10px',
+        boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
+        maxWidth: '1200px',
+        margin: 'auto',
+        fontFamily: 'Roboto, sans-serif',
+    },
+    title: {
+        color: '#333',
+        fontSize: '2rem',
+        fontWeight: 'bold',
+        marginBottom: '20px',
+    },
+    addStudent: {
+        backgroundColor: '#fff',
+        padding: '20px',
+        borderRadius: '8px',
+        boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
+        marginBottom: '30px',
+    },
+    input: {
+        width: '100%',
+        padding: '10px',
+        marginBottom: '10px',
+        borderRadius: '5px',
+        border: '1px solid #ddd',
+        fontSize: '1rem',
+        outline: 'none',
+        transition: 'border-color 0.3s',
+    },
+    inputFocus: {
+        borderColor: '#4CAF50',
+    },
+    button: {
+        backgroundColor: '#4CAF50',
+        color: '#fff',
+        padding: '10px 20px',
+        border: 'none',
+        borderRadius: '5px',
+        cursor: 'pointer',
+        fontSize: '1rem',
+        transition: 'background-color 0.3s',
+    },
+    buttonHover: {
+        backgroundColor: '#45a049',
+    },
+    searchContainer: {
+        backgroundColor: '#fff',
+        padding: '20px',
+        borderRadius: '8px',
+        boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
+        marginBottom: '30px',
+    },
+    studentTable: {
+        width: '100%',
+        borderCollapse: 'collapse',
+        marginTop: '20px',
+    },
+    tableHeader: {
+        backgroundColor: '#f4f4f4',
+        padding: '12px',
+        fontSize: '1.1rem',
+        textAlign: 'left',
+        color: '#333',
+        borderBottom: '2px solid #ddd',
+    },
+    tableCell: {
+        padding: '12px',
+        borderBottom: '1px solid #ddd',
+        fontSize: '1rem',
+        color: '#555',
+    },
+    studentItemActive: {
+        backgroundColor: '#e1f7e1',
+    },
+    studentItemInactive: {
+        backgroundColor: '#f9f9f9',
+    },
+    studentButton: {
+        backgroundColor: '#3498db',
+        color: '#fff',
+        padding: '8px 15px',
+        borderRadius: '5px',
+        border: 'none',
+        fontSize: '0.9rem',
+        cursor: 'pointer',
+        marginRight: '10px',
+        transition: 'background-color 0.3s',
+    },
+    studentButtonHover: {
+        backgroundColor: '#2980b9',
+    },
+    evaluationsContainer: {
+        marginTop: '20px',
+        padding: '20px',
+        backgroundColor: '#fafafa',
+        borderRadius: '8px',
+        boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
+    },
+    evaluationTable: {
+        width: '100%',
+        marginTop: '10px',
+        borderCollapse: 'collapse',
+    },
+    comparativeSection: {
+        marginTop: '20px',
+        backgroundColor: '#fff',
+        padding: '20px',
+        borderRadius: '8px',
+        boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
+    },
+    comparativeTable: {
+        width: '100%',
+        borderCollapse: 'collapse',
+        marginTop: '10px',
+    },
+};
+
+export default styles;
